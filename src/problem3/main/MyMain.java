@@ -5,7 +5,18 @@
  *  Time: 7:13 PM
  */
 package problem3.main;
-// executable class
-// use problem5.student.Student class to create object of student
+
+import problem3.myqueue.MyPriorityQueue;
+
+
 public class MyMain {
+    public static void main(String[] args) {
+        MyPriorityQueue obj = new MyPriorityQueue();
+        obj.insert("harshit",1);
+        obj.insert("sparsh",4);
+        obj.insert("siddharth",3);
+        obj.insert("kavya",2);
+        obj.insert("sameksha",5);
+        obj.display();
+    }
 }
